@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="test-login">
+      <img class="container-icon1" alt="" src="./public/container@2x.png" />
+    <div class="content">
+      <div class="input81">
+        <input class="surface80" type="text" />
+
+        <div class="password2">••••••••••</div>
+        <b class="label591">
+          <span>Mật khẩu </span>
+          <span class="span13">*</span>
+        </b>
+        <img class="icon-eye2" alt="" src="./public/icon--eye.svg" />
+      </div>
+      <div class="input82">
+        <input class="surface81" type="text" />
+
+        <div class="password2">Nhập email</div>
+        <b class="label592">
+          <span>Email </span>
+          <span class="span13">*</span>
+        </b>
+      </div>
+      <h1 class="ng-nhp1">Đăng nhập</h1>
+      <div class="vui-lng-ng">
+        Vui lòng đăng nhập để tiếp tục vào tài khoản của bạn.
+      </div>
+      <a class="qun-mt-khu">Quên mật khẩu</a>
+      <a class="ng-k3" id="ngK" href="./ng-k.html">Đăng ký</a>
+      <div class="checkbox10">
+        <input class="fill107" type="checkbox" />
+
+        <div class="label-text">Nhớ mật khẩu</div>
+      </div>
+      <div class="login-else">
+        <div class="">Đăng nhập với</div>
+        <img class="" alt="" src="./public/social-icon.svg" />
+
+        <img class="" alt="" src="./public/vector.svg" />
+
+        <img class="" alt="" src="./public/vector.svg" />
+
+        <img class="" alt="" src="./public/social-icon.svg" />
+      </div>
+      <button class="button69">
+        <div class="button70">
+          <b class="label593"><a href="./home.html">Đăng nhập </a></b>
+        </div>
+      </button>
+    </div>
+    </div>
+
+    <script>
+      var ngK = document.getElementById("ngK");
+      if (ngK) {
+        ngK.addEventListener("click", function (e) {
+          window.location.href = "./ng-k.html";
+        });
+      }
+    </script>
+  </body>
+</html>
