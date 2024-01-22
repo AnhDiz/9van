@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --h3-bold: "IBM Plex Sans";
+
+  /* font sizes */
+  --h4-regular-size: 14px;
+  --h3-bold-size: 16px;
+  --h5-regular-size: 13px;
+  --h2-bold-size: 20px;
+  --h1-bold-size: 24px;
+
+  /* Colors */
+  --gray-90: #f0f0f5;
+  --green-70: #54c241;
+  --white: #fff;
+  --primary-color-default-40: #0069d0;
+  --gray-20: #3a3a47;
+  --color-darkslategray-100: #2d343b;
+  --color-green: #2a9817;
+  --gray-70: #aaaab9;
+  --color-darkgray-100: #979797;
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: #b9b9b9;
+  --gray-60: #8f8fa2;
+  --purple-50: #c02bff;
+  --gray-80: #d3d4dd;
+  --color-gray-100: #fefefe;
+  --gray-10: #24252e;
+  --color-gray-200: #232323;
+  --stroke-2nd: #1a1e29;
+  --color-black: #000;
+  --red-50: #f02532;
+  --red-40: #d01e29;
+  --color-blueviolet: #9747ff;
+  --blue-60: #498fff;
+  --blue-50: #007af0;
+  --gray-40: #696979;
+  --color-gainsboro-100: #e6e8e7;
+  --color-gainsboro-200: #d9d9d9;
+  --gray-50: #7a7b8e;
+  --color-steelblue: #3d8ed0;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-10xs: 3px;
+  --gap-31xl: 50px;
+  --gap-26xl: 45px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-7xs-5: 5.5px;
+  --padding-base: 16px;
+  --padding-sm-5: 13.5px;
+  --padding-3xs: 10px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+  --br-11xs: 2px;
+  --br-xl: 20px;
+  --br-xs-7: 11.7px;
+  --br-xs: 12px;
+  --br-8xs: 5px;
+  --br-7xs: 6px;
+  --br-5xl: 24px;
+
+  /* Effects */
+  --shadow-outer-40: 0px 4px 5px rgba(0, 0, 0, 0.14),
+    0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  --background-blur: blur(2px);
+  --shadow-outer-20: 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
