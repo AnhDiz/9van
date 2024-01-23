@@ -44,7 +44,7 @@
             src="./public/lightbulblightbulb-outline.svg"
           />
         </div>
-        <div class="item-54">
+        <div class="item-54" id="h-s">
           <div class="background29"></div>
           <b class="label757">Hồ sơ</b>
           <img
@@ -108,37 +108,34 @@
           </div>
         </div>
       </div>
-      <div class="input-parent1">
-        <div class="input94">
-          <div class="surface89">
-            <div class="fill124"></div>
+      <div class="input-parent7">
+        <b class="lp-hc-hot1">Lớp học hoạt động </b>
+        <div class="frame-child60"></div>
+        <div class="lp50">4 lớp</div>
+        <div class="input117">
+          <div class="surface106">
+            <div class="fill158"></div>
           </div>
-          <div class="placeholder79">Tìm kiếm</div>
-          <img class="search-icon45" alt="" src="./public/search-icon.svg" />
+          <div class="placeholder95">Tìm kiếm</div>
+          <img class="search-icon51" alt="" src="./public/search-icon.svg" />
         </div>
-        <b class="ca-ti2">Đề của tôi</b>
-        <div class="group-child3"></div>
-        <div class="lp44">4 lớp</div>
-      </div>
-      <div class="button-to-mi2">
-        <div class="button87">
-          <img class="icon621" alt="" src="./public/icon.svg" />
+        <div class="dropdown-menu35">
+          <div class="dropdown-menu36">
+            <div class="dropdown-wrapper69">
+              <div class="dropdown123">
+                <img class="icon727" alt="" src="./public/icon.svg" />
 
-          <b class="label763">Tạo mới</b>
-        </div>
-      </div>
-      <div class="dropdown-menu-ring1">
-        <div class="dropdown-menu-chung3">
-          <div class="dropdown-menu25">
-            <div class="dropdown-wrapper63">
-              <div class="dropdown114">
-                <img class="icon622" alt="" src="./public/icon.svg" />
-
-                <b class="label763">Đề riêng</b>
+                <b class="label948">Lớp học kết thúc</b>
               </div>
             </div>
           </div>
         </div>
+        <button class="button-to-mi8">
+          <div class="button99">
+            <img class="icon728" alt="" src="./public/icon.svg" />
+            <b class="label949">Tạo mới</b>
+          </div>
+        </button>
       </div>
       <div class="rectangle-parent53">
         <div class="group-child4"></div>
@@ -388,6 +385,12 @@
       if (iconContainer) {
         iconContainer.addEventListener("click", function (e) {
           window.location.href = "./chnh-sa-bi.html";
+        });
+      }
+      var hs = document.getElementById("h-s");
+      if (hs) {
+        hs.addEventListener("click", function (e) {
+          window.location.href = "./h-s.html";
         });
       }
     </script>

@@ -65,7 +65,7 @@
             src="./public/file-systemfile-with-itens-outline.svg"
           />
         </div>
-        <div class="item-36">
+        <div class="item-36" id="ld">
           <div class="background43"></div>
           <b class="label833">Luyện đề</b>
           <img
@@ -74,7 +74,7 @@
             src="./public/datadata-outline.svg"
           />
         </div>
-        <div class="item-26">
+        <div class="item-26" id="l-p">
           <div class="background43"></div>
           <b class="label833">Lớp học</b>
           <img
@@ -174,10 +174,16 @@
     </div>
 
     <script>
-      var item1Container = document.getElementById("item1Container");
-      if (item1Container) {
-        item1Container.addEventListener("click", function (e) {
-          window.location.href = "./tng-qut.html";
+      var lp = document.getElementById("l-p");
+      if (lp) {
+        lp.addEventListener("click", function (e) {
+          window.location.href = "./lp-hc.html";
+        });
+      }
+      var ld = document.getElementById("ld");
+      if (ld) {
+        ld.addEventListener("click", function (e) {
+          window.location.href = "./ca-ti.html";
         });
       }
     </script>

@@ -200,7 +200,7 @@
 .lp-hc-child {
   position: absolute;
   height: 78.03%;
-  width: 77.99%;
+  width: auto;
   top: 20.41%;
   right: 1.94%;
   bottom: 1.56%;
@@ -346,7 +346,7 @@
 }
 .input-parent7 {
   position: absolute;
-  top: 158px;
+  top: 135px;
   left: 20.07%;
   width: 80%;
   height: 33px;
@@ -725,9 +725,9 @@
 }
 .table-column-parent15 {
   position: absolute;
-  top: 238px;
-  left: 289px;
-  width: 1075px;
+  top: 15px;
+  left: 15px;
+  width: max-content;
   height: 301px;
   font-size: var(--h5-regular-size);
   color: var(--gray-10);
